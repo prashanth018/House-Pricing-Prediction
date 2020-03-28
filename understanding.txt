@@ -6,3 +6,88 @@ All the unintended NAs in both "test and train" are to be replaced with:
 
 if categorical attribute:
 	A Map has to be created corresponding to each attribute for the conversion of state to numeric.
+
+
+When house has no garage then garagebuiltdate doesnt make sense what to do in such cases?
+
+MSSubClass - Categorical, scaling, no table
+MSZoning - categorical, no scaling,needs table, contains nan(use mode)
+LotFrontage - continuous, scaling, contains nan(use mean/median)
+LotArea - conti, scaling
+Street - categ, no scaling, needs table
+Alley - categ, no scaling, needs table
+LotShape - categ, no scaling, needs table
+LandContour - categ, no scaling, needs table
+Utilities - categ, no scaling, needs table, contains nan(use mode)
+LotConfig - categ, no scaling, needs table
+LandSlope - categ, no scaling, needs table
+Neighborhood - categ, no scaling, needs table
+Condition1 - categ, no scaling, needs table
+Condition2 - categ, no scaling, needs table
+BldgType - categ, no scaling, needs table
+HouseStyle - categ, no scaling, needs table
+OverallQual - categ, no scaling
+OverallCond - categ, no scaling
+YearBuilt - contin, scaling
+YearRemodAdd - contin, scaling
+RoofStyle - categ, no scaling, needs table
+RoofMatl - categ, no scaling, needs table
+Exterior1st - categ, no scaling, needs table, contains nan(mode)
+Exterior2nd - categ, no scaling, needs table, contains nan(mode)
+MasVnrType - categ, no scaling, needs table, contains nan(mode)
+MasVnrArea - conti, scaling, contains nan(mean/median)
+ExterQual - categ, no scaling, needs table
+ExterCond - categ, no scaling, needs table
+Foundation - categ, no scaling, needs table
+BsmtQual - categ, no scaling, needs table
+BsmtCond - categ, no scaling, needs table
+BsmtExposure - categ, no scaling, needs table
+BsmtFinType1 - categ, no scaling, needs table
+BsmtFinSF1 - contin, scaling, contains nan(mean/median)
+BsmtFinType2 - categ, no scaling, needs table
+BsmtFinSF2 - contin, scaling, contains nan(mean/median)
+BsmtUnfSF - contin, scaling, contains nan(mean/median)
+TotalBsmtSF - contin, scaling, contains nan(mean/median)
+Heating - categ, no scalig, needs table
+HeatingQC - categ, no scaling, needs table
+CentralAir - categ, no scaling, needs table
+Electrical - categ, no scaling, needs table, contains nan(mode)
+1stFlrSF - contin, scaling
+2ndFlrSF - contin, scaling
+LowQualFinSF - contin, scaling
+GrLivArea - contin, scaling
+BsmtFullBath - categ, no scaling, contains nan(mode)
+BsmtHalfBath - categ, no scaling, contains nan(mode)
+FullBath - categ, no scaling
+HalfBath - categ, no scaling
+BedroomAbvGr - categ, no scaling
+KitchenAbvGr - categ, no scaling
+KitchenQual - categ, no scaling, needs table, contains nan(mode)
+TotRmsAbvGrd - categ, no scaling
+Functional - categ, no scaling, needs table, contains nan(mode)
+Fireplaces - categ, no scaling
+FireplaceQu - categ, no scaling, needs table
+GarageType - categ, no scaling, needs table
+GarageYrBlt - contin, scaling, contains nan(mean/median)
+GarageFinish - categ, no scaling, needs table
+GarageCars - categ, no scaling, contains nan(mode)
+GarageArea - contin, scaling, contains nan(node)
+GarageQual - categ, no scaling, needs table
+GarageCond - categ, no scaling, needs table
+PavedDrive - categ, no scaling, needs table
+WoodDeckSF - contin, scaling
+OpenPorchSF - contin, scaling
+EnclosedPorch - contin, scaling
+3SsnPorch - contin, scaling
+ScreenPorch - contin, scaling
+PoolArea - contin, scaling
+PoolQC - categ, no scaling, needs table
+Fence - categ, no scaling, needs table
+MiscFeature - categ, no scaling, needs table
+MiscVal - contin, scaling
+MoSold - categ, no scaling
+YrSold - contin, scaling
+SaleType - categ, no scaling, needs table, nan(mode)
+SaleCondition - categ, no scaling
+
+
