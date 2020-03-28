@@ -1,0 +1,63 @@
+Train Data:
+Really Not Available - 
+	LotFrontage 259/1460
+	MasVnrType 8/1460
+	MasVnrArea 8/1460
+	Electrical 1/1460
+	GarageYrBlt 81/1460
+
+In which NA is a feature - [observation: These are all categorical features]
+	Alley 1369/1460
+	BsmtQual 37/1460
+	BsmtCond 37/1460
+	BsmtExposure 38/1460
+	BsmtFinType1 37/1460
+	BsmtFinType2 38/1460
+	FireplaceQu 690/1460
+	GarageType 81/1460
+	GarageFinish 81/1460
+	GarageQual 81/1460
+	GarageCond 81/1460
+	PoolQC 1453/1460
+	Fence 1179/1460
+	MiscFeature 1406/1460
+
+
+
+Test Data:
+Really Not Available - [observation: These are all categorical features]
+	MSZoning 4/1459
+	LotFrontage 227/1459
+	Utilities 2/1459
+	Exterior1st 1/1459
+	Exterior2nd 1/1459
+	MasVnrType 16/1459
+	MasVnrArea 15/1459
+	BsmtFinSF1 1/1459
+	BsmtFinSF2 1/1459
+	BsmtUnfSF 1/1459
+	TotalBsmtSF 1/1459
+	BsmtFullBath 2/1459
+	BsmtHalfBath 2/1459
+	KitchenQual 1/1459
+	Functional 2/1459
+	GarageYrBlt 78/1459
+	GarageCars 1/1459
+	GarageArea 1/1459
+	SaleType 1/1459
+
+In which NA is a feature - 
+	Alley 1352/1459
+	BsmtQual 44/1459
+	BsmtCond 45/1459
+	BsmtExposure 44/1459
+	BsmtFinType1 42/1459
+	BsmtFinType2 42/1459
+	FireplaceQu 730/1459
+	GarageType 76/1459
+	GarageFinish 78/1459
+	GarageQual 78/1459
+	GarageCond 78/1459
+	PoolQC 1456/1459
+	Fence 1169/1459
+	MiscFeature 1408/1459

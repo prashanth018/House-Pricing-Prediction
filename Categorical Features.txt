@@ -1,0 +1,111 @@
+MSZoning (5,) (6,) ['RL' 'RM' 'C (all)' 'FV' 'RH' nan]
+
+Street (2,) (2,) ['Pave' 'Grvl']
+
+Alley (3,) (3,) [nan 'Grvl' 'Pave']
+
+LotShape (4,) (4,) ['Reg' 'IR1' 'IR2' 'IR3']
+
+LandContour (4,) (4,) ['Lvl' 'Bnk' 'Low' 'HLS']
+
+Utilities (2,) (3,) ['AllPub' 'NoSeWa' nan]
+
+LotConfig (5,) (5,) ['Inside' 'FR2' 'Corner' 'CulDSac' 'FR3']
+
+LandSlope (3,) (3,) ['Gtl' 'Mod' 'Sev']
+
+Neighborhood (25,) (25,) ['CollgCr' 'Veenker' 'Crawfor' 'NoRidge' 'Mitchel' 'Somerst' 'NWAmes'
+ 'OldTown' 'BrkSide' 'Sawyer' 'NridgHt' 'NAmes' 'SawyerW' 'IDOTRR'
+ 'MeadowV' 'Edwards' 'Timber' 'Gilbert' 'StoneBr' 'ClearCr' 'NPkVill'
+ 'Blmngtn' 'BrDale' 'SWISU' 'Blueste']
+
+Condition1 (9,) (9,) ['Norm' 'Feedr' 'PosN' 'Artery' 'RRAe' 'RRNn' 'RRAn' 'PosA' 'RRNe']
+
+Condition2 (8,) (8,) ['Norm' 'Artery' 'RRNn' 'Feedr' 'PosN' 'PosA' 'RRAn' 'RRAe']
+
+BldgType (5,) (5,) ['1Fam' '2fmCon' 'Duplex' 'TwnhsE' 'Twnhs']
+
+HouseStyle (8,) (8,) ['2Story' '1Story' '1.5Fin' '1.5Unf' 'SFoyer' 'SLvl' '2.5Unf' '2.5Fin']
+
+RoofStyle (6,) (6,) ['Gable' 'Hip' 'Gambrel' 'Mansard' 'Flat' 'Shed']
+
+RoofMatl (8,) (8,) ['CompShg' 'WdShngl' 'Metal' 'WdShake' 'Membran' 'Tar&Grv' 'Roll'
+ 'ClyTile']
+
+Exterior1st (15,) (16,) ['VinylSd' 'MetalSd' 'Wd Sdng' 'HdBoard' 'BrkFace' 'WdShing' 'CemntBd'
+ 'Plywood' 'AsbShng' 'Stucco' 'BrkComm' 'AsphShn' 'Stone' 'ImStucc'
+ 'CBlock' nan]
+
+Exterior2nd (16,) (17,) ['VinylSd' 'MetalSd' 'Wd Shng' 'HdBoard' 'Plywood' 'Wd Sdng' 'CmentBd'
+ 'BrkFace' 'Stucco' 'AsbShng' 'Brk Cmn' 'ImStucc' 'AsphShn' 'Stone'
+ 'Other' 'CBlock' nan]
+
+MasVnrType (5,) (5,) ['BrkFace' 'None' 'Stone' 'BrkCmn' nan]
+
+ExterQual (4,) (4,) ['Gd' 'TA' 'Ex' 'Fa']
+
+ExterCond (5,) (5,) ['TA' 'Gd' 'Fa' 'Po' 'Ex']
+
+Foundation (6,) (6,) ['PConc' 'CBlock' 'BrkTil' 'Wood' 'Slab' 'Stone']
+
+BsmtQual (5,) (5,) ['Gd' 'TA' 'Ex' nan 'Fa']
+
+BsmtCond (5,) (5,) ['TA' 'Gd' nan 'Fa' 'Po']
+
+BsmtExposure (5,) (5,) ['No' 'Gd' 'Mn' 'Av' nan]
+
+BsmtFinType1 (7,) (7,) ['GLQ' 'ALQ' 'Unf' 'Rec' 'BLQ' nan 'LwQ']
+
+BsmtFinType2 (7,) (7,) ['Unf' 'BLQ' nan 'ALQ' 'Rec' 'LwQ' 'GLQ']
+
+Heating (6,) (6,) ['GasA' 'GasW' 'Grav' 'Wall' 'OthW' 'Floor']
+
+HeatingQC (5,) (5,) ['Ex' 'Gd' 'TA' 'Fa' 'Po']
+
+CentralAir (2,) (2,) ['Y' 'N']
+
+Electrical (6,) (6,) ['SBrkr' 'FuseF' 'FuseA' 'FuseP' 'Mix' nan]
+
+BsmtFullBath (4,) (5,) [ 1.  0.  2.  3. nan]
+
+BsmtHalfBath (3,) (4,) [ 0.  1.  2. nan]
+
+FullBath (4,) (5,) [2 1 3 0 4]
+
+HalfBath (3,) (3,) [1 0 2]
+
+BedroomAbvGr (8,) (8,) [3 4 1 2 0 5 6 8]
+
+KitchenAbvGr (4,) (4,) [1 2 3 0]
+
+KitchenQual (4,) (5,) ['Gd' 'TA' 'Ex' 'Fa' nan]
+
+TotRmsAbvGrd (12,) (14,) [ 8  6  7  9  5 11  4 10 12  3  2 14 13 15]
+
+Functional (7,) (8,) ['Typ' 'Min1' 'Maj1' 'Min2' 'Mod' 'Maj2' 'Sev' nan]
+
+Fireplaces (4,) (5,) [0 1 2 3 4]
+
+FireplaceQu (6,) (6,) [nan 'TA' 'Gd' 'Fa' 'Ex' 'Po']
+
+GarageType (7,) (7,) ['Attchd' 'Detchd' 'BuiltIn' 'CarPort' nan 'Basment' '2Types']
+
+GarageFinish (4,) (4,) ['RFn' 'Unf' 'Fin' nan]
+
+GarageCars (5,) (7,) [ 2.  3.  1.  0.  4.  5. nan]
+
+GarageQual (6,) (6,) ['TA' 'Fa' 'Gd' nan 'Ex' 'Po']
+
+GarageCond (6,) (6,) ['TA' 'Fa' nan 'Gd' 'Po' 'Ex']
+
+PavedDrive (3,) (3,) ['Y' 'N' 'P']
+
+PoolQC (4,) (4,) [nan 'Ex' 'Fa' 'Gd']
+
+Fence (5,) (5,) [nan 'MnPrv' 'GdWo' 'GdPrv' 'MnWw']
+
+MiscFeature (5,) (5,) [nan 'Shed' 'Gar2' 'Othr' 'TenC']
+
+SaleType (9,) (10,) ['WD' 'New' 'COD' 'ConLD' 'ConLI' 'CWD' 'ConLw' 'Con' 'Oth' nan]
+
+SaleCondition (6,) (6,) ['Normal' 'Abnorml' 'Partial' 'AdjLand' 'Alloca' 'Family']

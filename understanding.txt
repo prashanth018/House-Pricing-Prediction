@@ -1,0 +1,8 @@
+NA in the data file for few attributes[	Alley, BsmtQual, BsmtCond, BsmtExposure, BsmtFinType1, BsmtFinType2, FireplaceQu, GarageType, GarageFinish, GarageQual, GarageCond,	PoolQC,	Fence, MiscFeature] are meant to be states and doesn't mean data isn't available.
+
+All the unintended NAs in both "test and train" are to be replaced with:
+	Mean/Median if continuous attribute
+	Mode if categorical attribute
+
+if categorical attribute:
+	A Map has to be created corresponding to each attribute for the conversion of state to numeric.
