@@ -48,7 +48,7 @@ BsmtFinType2 - categ, no scaling, needs table
 BsmtFinSF2 - contin, scaling, contains nan(mean/median)
 BsmtUnfSF - contin, scaling, contains nan(mean/median)
 TotalBsmtSF - contin, scaling, contains nan(mean/median)
-Heating - categ, no scalig, needs table
+Heating - categ, no scaling, needs table
 HeatingQC - categ, no scaling, needs table
 CentralAir - categ, no scaling, needs table
 Electrical - categ, no scaling, needs table, contains nan(mode)
@@ -88,6 +88,32 @@ MiscVal - contin, scaling
 MoSold - categ, no scaling
 YrSold - contin, scaling
 SaleType - categ, no scaling, needs table, nan(mode)
-SaleCondition - categ, no scaling
+SaleCondition - categ, no scaling, needs table
 
 
+
+
+
+LotFrontage - continuous, scaling, contains nan(use mean/median)
+LotArea - conti, scaling
+YearBuilt - contin, scaling
+YearRemodAdd - contin, scaling
+MasVnrArea - conti, scaling, contains nan(mean/median)
+BsmtFinSF1 - contin, scaling, contains nan(mean/median)
+BsmtFinSF2 - contin, scaling, contains nan(mean/median)
+BsmtUnfSF - contin, scaling, contains nan(mean/median)
+TotalBsmtSF - contin, scaling, contains nan(mean/median)
+1stFlrSF - contin, scaling
+2ndFlrSF - contin, scaling
+LowQualFinSF - contin, scaling
+GrLivArea - contin, scaling
+GarageYrBlt - contin, scaling, contains nan(mean/median)
+GarageArea - contin, scaling, contains nan(node)
+WoodDeckSF - contin, scaling
+OpenPorchSF - contin, scaling
+EnclosedPorch - contin, scaling
+3SsnPorch - contin, scaling
+ScreenPorch - contin, scaling
+PoolArea - contin, scaling
+MiscVal - contin, scaling
+YrSold - contin, scaling
